@@ -1,0 +1,47 @@
+.help{
+    position: relative;
+    z-index: 1;
+    min-height: 100vh;
+}
+.iconic{
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    top: 0;
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 100%;
+}
+.baby{
+    text-align: center;
+    font-size: 36px;
+    margin: auto;
+    padding: 100px;
+    margin: 30px;
+}
+@media(max-width 300px){
+    .baby{
+        text-align: center;
+    }
+}
+.happy{
+    text-align: center;
+    margin: 20px;
+    color: rgb(82, 60, 33);
+}
+.ser{
+    text-align: center;
+    position: sticky;
+    top: 0;
+    margin: 10px;
+}
+.face{
+    color: rgb(126, 0, 0);
+    text-decoration: none;
+    font-size: 36px;
+}
+.ser :hover{
+    background-color: rgba(128, 128, 128, 0.473);
+    color: rgba(247, 0, 255, 0.363);
+}
